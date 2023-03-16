@@ -58,3 +58,19 @@ h1 {
 .num {
     color: rgb(230, 50, 50);
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 0 1rem;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+}
